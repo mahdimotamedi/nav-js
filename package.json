@@ -1,0 +1,31 @@
+{
+  "name": "nav-js",
+  "version": "1.0.0",
+  "description": "A UI library to making all sort of navigation",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --content-base dist --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdimotamedi/nav-js.git"
+  },
+  "keywords": [
+    "navigation",
+    "menu"
+  ],
+  "author": "Mahdi Motamedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdimotamedi/nav-js/issues"
+  },
+  "homepage": "https://github.com/mahdimotamedi/nav-js#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
