@@ -4,7 +4,7 @@
   "description": "A UI library to making all sort of navigation",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
+    "dev": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
   "repository": {
