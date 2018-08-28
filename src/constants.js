@@ -1,10 +1,15 @@
 export const CONDITIONS = {
-    HORIZONTAL: 'HORIZONTAL',
-    VERTICAL: 'VERTICAL',
+    HORIZONTAL: 'horizontal',
+    VERTICAL: 'vertical',
 };
 
 export const ANIMATIONS = {
-    NONE: 'NONE',
-    FADE: 'FADE',
-    SLIDE: 'SLIDE',
+    NONE: 'none',
+    FADE: 'fade',
+    SLIDE: 'slide',
+};
+
+export const DIR = {
+    LTR: 'ltr',
+    RTL: 'rtl',
 };

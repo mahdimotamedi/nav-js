@@ -1,6 +1,16 @@
+/**
+ * create responsive of element in mobile and tablet
+ */
 export class Responsive {
-    constructor()
+    /**
+     * responsive constructor
+     *
+     * @param element
+     * @param dir
+     */
+    constructor(element, dir)
     {
-        console.log('responsive');
+        this.element = element;
+        this.dir = dir;
     }
-};
+}

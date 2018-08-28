@@ -1,20 +1,38 @@
 import { Responsive } from './responsive';
-import { CONDITIONS, ANIMATIONS } from './constants';
+import { CONDITIONS, ANIMATIONS, DIR } from './constants';
 
 class Navjs {
+    /**
+     * navjs constructor
+     * starter script
+     */
     constructor({
                     id,
                     theme = 'default',
                     responsive = true,
                     condition = CONDITIONS.HORIZONTAL,
-                    animation = ANIMATIONS.SLIDE
+                    animation = ANIMATIONS.SLIDE,
+                    dir = DIR.LTR,
                 })
     {
         this.element = document.getElementById(id);
-        console.log(this.element);
+        this.theme = theme;
+        this.responsive = responsive;
+        this.condition = condition;
+        this.dir = dir;
 
-        this.responive = new Navjs.Responsive();
-        console.log(this.responive);
+        if (this.responsive)
+            this.responsiveObj = new Navjs.Responsive(this.element, this.dir);
+
+        this.addClasses();
+    }
+
+    /**
+     * add required classes to the element
+     */
+    addClasses()
+    {
+        this.element.classList.add('navjs')
     }
 }
 
