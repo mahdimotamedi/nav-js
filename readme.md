@@ -1,6 +1,6 @@
 # Nav JS
 
-> Is still under development
+#### It's still under development
 
 > A ui library to build menu in theme of your website easily.
 
