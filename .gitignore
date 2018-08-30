@@ -66,4 +66,3 @@ typings/
 # extra data files
 _DATA/
 package-lock.json
-dist/
