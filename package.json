@@ -1,6 +1,6 @@
 {
   "name": "nav-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A UI library to making all sort of navigation",
   "main": "index.js",
   "scripts": {
