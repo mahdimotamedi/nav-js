@@ -2,7 +2,7 @@
 
 #### It's still under development
 
-> A ui library to build menu in theme of your website easily.
+> A ui library to building menu that your website needs.
 
 ## Sample of usage
 
