@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    entry: ['./src/index.js', './src/themes/default/index.scss'],
+    entry: ['./src/index.js', './src/themes/default/index.css'],
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'nav.js'
@@ -9,7 +9,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
+                test: /\.css$/,
                 use: [
                     {
                         loader: 'file-loader',

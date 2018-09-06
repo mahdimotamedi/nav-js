@@ -122,25 +122,25 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/themes/default/index.scss":
-/*!***************************************!*\
-  !*** ./src/themes/default/index.scss ***!
-  \***************************************/
+/***/ "./src/themes/default/index.css":
+/*!**************************************!*\
+  !*** ./src/themes/default/index.css ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"themes/default.css\";\n\n//# sourceURL=webpack:///./src/themes/default/index.scss?");
+eval("module.exports = __webpack_require__.p + \"themes/default.css\";\n\n//# sourceURL=webpack:///./src/themes/default/index.css?");
 
 /***/ }),
 
 /***/ 0:
-/*!************************************************************!*\
-  !*** multi ./src/index.js ./src/themes/default/index.scss ***!
-  \************************************************************/
+/*!***********************************************************!*\
+  !*** multi ./src/index.js ./src/themes/default/index.css ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/index.js */\"./src/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/themes/default/index.scss */\"./src/themes/default/index.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js_./src/themes/default/index.scss?");
+eval("__webpack_require__(/*! ./src/index.js */\"./src/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/themes/default/index.css */\"./src/themes/default/index.css\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js_./src/themes/default/index.css?");
 
 /***/ })
 
