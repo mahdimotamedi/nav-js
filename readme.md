@@ -28,21 +28,34 @@
     });
 </script>
 ```
+Look at 'examples' directory to see a lot of samples
 
-## Completely Responsive Menu
+## Options
+```javascript
+    const mainMenu = new Navjs({
+       id,
+       theme: 'default',
+       responsive: true,
+       condition: 'horizontal',
+       animation: 'fade',
+       dir: 'ltr',
+    });
+```
+
+### Completely Responsive Menu
 
 this library will make responsive menu for mobiles and tablet and watches better than any other time.
 
-## Horizontal and Vertical Menu
+### Horizontal and Vertical Menu
 
 now we can make both horizontal and vertical menus in every theme very easily.
  
-## Support : Animations - Icons - Mega Menu - Etc
+### Support : Animations - Icons - Mega Menu - Etc
 
 now we can add or use a lot of utilities in a very efficient way
 
-## Extensible to add Themes
+### Extensible to add Themes
 
 it's not just a solution for menu of your website, but it's fine for develop your menu behaviours very fast.
 
-#### it also support RTL languages with rtlcss lib 
+##### it also support RTL languages with rtlcss lib 
