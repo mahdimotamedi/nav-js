@@ -698,7 +698,6 @@ Menu overlay
 
 .header-bg-image .nav-menu-wrapper {
   background-color: inherit;
-  background-image: url("../examples/demo/images/overlay-menu-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
