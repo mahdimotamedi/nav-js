@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>navigation menu hover transition</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="../dist/themes/index.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="navjs-header header-shadow">
+    <div class="container">
+
+        <!-- navjs header -->
+        <div class="navjs-header-container">
+
+            <!--Logo-->
+            <div class="logo" data-mobile-logo="./images/logo-dark.png" data-sticky-logo="./images/logo-dark.png">
+                <a href="#"><img src="./images/logo-dark.png" alt="logo"/></a>
+            </div>
+
+            <!-- Burger menu -->
+            <div class="burger-menu">
+                <div class="line-menu line-half first-line"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu line-half last-line"></div>
+            </div>
+
+            <!--Navigation menu-->
+            <nav class="navjs-menu menu-caret menu-hover-4 submenu-top-border submenu-scale">
+                <ul>
+                    <li class="current-menu"><a href="#">Home</a>
+                        <ul>
+                            <li><a href="#">Dropdown menu</a></li>
+                            <li><a href="#">Dropdown menu</a></li>
+                            <li><a href="#">Dropdown menu</a></li>
+                            <li><a href="#">Dropdown menu</a>
+                                <ul>
+                                    <li><a href="#">Dropdown menu</a></li>
+                                    <li><a href="#">Dropdown menu</a></li>
+                                    <li><a href="#">Dropdown menu</a></li>
+                                    <li><a href="#">Dropdown menu</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">News</a></li>
+                    <li class="submenu-right"><a href="#">Contact Us</a>
+                        <ul>
+                            <li><a href="#">Dropdown menu</a></li>
+                            <li><a href="#">Dropdown menu</a></li>
+                            <li><a href="#">Dropdown menu</a></li>
+                            <li><a href="#">Dropdown menu</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../dist/nav.js"></script>
+<script>
+    const mainMenu = new Navjs({
+        id: 'main-menu'
+    });
+</script>
+</body>
+</html>
