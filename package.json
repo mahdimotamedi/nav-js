@@ -1,6 +1,6 @@
 {
   "name": "nav-js",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A UI library to making all sort of navigation",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,6 @@
   },
   "dependencies": {
     "css-loader": "^1.0.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.3.1"
   }
 }
